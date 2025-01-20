@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Sign_Up {
+    height: 90vh;
+    width: 70vw;
+    /* border: 2px solid red; */
+    background-image: url(./images/shopping2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 17px;
+}
+.form {
+    /* border: 1px solid blue; */
+    height: 90vh;
+    width: 37vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+.first {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+.first input {
+    padding: 7px;
+    border-radius: 15px;
+    width: 150px;
+    border: 1px solid red;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.second input {
+    padding: 7px;
+    border-radius: 15px;
+    width: 250px;
+    border: 1px solid red;
+}
+.four button {
+    padding: 7px;
+    border-radius: 15px;
+    width: 250px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+.five {
+    height: 50px;
+    width: 240px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    left: 160px;
+    flex-direction: row;
+    column-gap: 16px;
+}
+#Sign_Up .form {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 13px;
+    background-color: rgba(71, 178, 240, 0.363);
+    border-radius: 13px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-wrap: nowrap;
+
+
+}

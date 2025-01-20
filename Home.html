@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav>
+        <div> <img src="./images/fashion nova.png" alt="logo" height="40px"></div>
+        <!-- <div> <input type="text" placeholder="Search for cloth collections" id="searchbar" name="searchbar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div> -->
+        <div class="items"> <select name="lang" id="lang" class="iselect">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+            </select></div>
+        <div class="items"><button id="logIn" class="iselect"><a href="./login.html">LogIn</a></button></div>
+        <!-- <div class="items"> <button id="signUp" class="iselect"><a href="./Signup.html">Sign Up</a></button></div> -->
+        <div id="cart" class="icon items"><i class="fa-solid fa-cart-shopping"></i>Cart</div>
+        <div id="profile" class="icon items"><i class="fa-solid fa-user"></i>Profile</div>
+
+    </nav>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/scrollimg1.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg2.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg3.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg4.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg5.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg6.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg7.png" alt=""></div>
+            <div class="swiper-slide"><img src="./images/scrollimg8.png" alt=""></div>
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--clothing collection sections-->
+    <section class="collections">
+        <section class="clothCollection">
+            <a href="./category.html"><img src="./images/collection.jpg" alt="" class="category c1" onclick="fun1()"> </a>
+           
+
+        </section>
+        <div class="title">
+            <h2 id="t1">Clothes Collection</h2>
+        </div>
+    </section>
+
+    <section class="video">
+        <video src="./media/Powered by Denim.mp4 " autoplay muted loop></video>
+
+    </section>
+
+    <!--
+      FAQ 
+   -->
+    <section class="questions">
+        <!--title-->
+        <div class="title">
+            <h2>General Questions</h2>
+        </div>
+        <div class="section-center">
+            <!--single  question-->
+            <article class="question">
+                <div class="question-title">
+                    <p>Can I change or modify orders that are already placed?</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <main class="question-text">
+                    <hr>
+                    You would not be able to change or modify the number of items once you have already placed an order.
+                    You can place another fresh order with the desired modifications. However, you can change your
+                    shipping preferences in Your Account at any time after placing your order as long as the order
+                    hasn't entered the shipping process yet.
+                </main>
+
+
+            </article>
+            <article class="question">
+                <div class="question-title">
+                    <p>How to cancel orders?</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <main class="question-text">
+                    <hr>
+                    You can cancel items or orders by visiting the Your Orders section in Your Account.<br>
+
+                    <h4>Note : </h4> In case you're still contacted for delivery, please refuse to accept it.
+                </main>
+
+            </article>
+            <article class="question">
+                <div class="question-title">
+                    <p>What is Cash on Delivery?</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <main class="question-text">
+                    <hr>
+                    Cash on Delivery is one of the payment methods for making purchases on Amazon.in. When you select
+                    Cash on Delivery as your payment method, you don't have to make any advance payment. You pay for
+                    your order only when you receive it.
+                </main>
+
+            </article>
+            <article class="question">
+                <div class="question-title">
+                    <p>I ordered a wrong item. How can I stop the order?</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <main class="question-text">
+                    <hr>
+                    If you have ordered a wrong item, you can cancel the order. In case, the order is already shipped
+                    and out for delivery, you can return the order.
+                </main>
+
+            </article>
+
+
+            <!--end question-->
+        </div>
+    </section>
+         <section id="back-top">
+            <a href=""> BACK TO TOP</a>
+         </section>
+      <footer>
+        <section id="footer">
+            <a href=""> FAQ  </a>
+            <a href="">  Help Centre</a>
+            <a href="">   Account </a>
+            <a href="">   Media Centre </a>
+            <a href="">   Investor Relations </a>
+            <a href="">   Jobs </a>
+            <a href="">   Ways to Watch </a>
+            <a href="">   Terms of Use </a>
+            <a href="">   Privacy </a>
+            <a href="">   Cookie Preferences </a>
+            <a href="">   Corporate Information </a>
+            <a href="">   Contact Us </a>
+            <a href="">   Speed Test </a>
+            <a href="">   Legal Notices </a>
+            <a href="">   Only on Netflix </a>
+
+        </section>
+        <hr>
+        <section id="footer-bottom">
+            <img src="./images/fashion nova.png" alt="" height="50px">
+            <select name="lang" id="language1">
+                <option value="English"> 🌐 English</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+            
+        </section>
+        
+      </footer>
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="./Home.js"></script>
+
+
+
+</body>
+
+</html>

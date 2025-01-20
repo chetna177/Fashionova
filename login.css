@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#login {
+    height: 90vh;
+    width: 70vw;
+    /* border: 2px solid red; */
+    background-image: url(./images/shopping2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 17px;
+}
+
+#login #form {
+    height: 90vh;
+    width: 37vw;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    padding: 40px;
+    position: absolute;
+    right: 0px;
+    background-color: rgba(71, 178, 240, 0.363);
+    border-radius: 17px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+
+}
+
+#login #form #top .response {
+    padding: 7px;
+    width: 120%;
+    border-radius: 13px;
+    border: 1px solid red;
+
+}
+
+#login #form #top {
+
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#login #form button {
+    background-color: red;
+    color: white;
+}
+
+#login #form #bottom {
+    height: 70px;
+    width: 240px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    left: 160px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#login #form #bottom #icon {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#login #form #bottom #icon a {
+    color: black;
+}
+
+.b {
+    position: relative;
+}
+
+.b span {
+
+    position: relative;
+    left: 40px;
+}

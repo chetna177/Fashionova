@@ -1,0 +1,44 @@
+
+.category{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    top: 20px;
+}
+.category .item{
+    height: 80vh;
+    width: 25vw;
+    border: 1px solid rgb(238, 230, 230);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    box-shadow: 1px 2px 20px grey;
+    margin: 30px 50px 0px 50px ;
+    align-items: center;
+
+}
+
+#toggle-btn{
+    position: relative;
+    left: 40px;
+    top: 15px;
+    font-size: x-large;
+    width: 40px;
+}
+
+.category figure {
+    margin-top: 5px;
+}
+
+.category div{
+    text-align: center;
+}
+.category figcaption{
+    display: flex;
+    flex-direction: row;
+    column-gap: 190px;
+}
+
